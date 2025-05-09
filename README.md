@@ -7,3 +7,5 @@ Each node in the graph represents an action or step that can be taken. Nodes wil
 Each edge in the graph represents a transition between states, defining the flow of the program. Edge transitions can be fixed, for example if you define a text-only chatbot where output is always displayed to a user, you may always transition from chatbot -> user. The transitions can also be conditional, allowing you to add branching (like an if-else statement) or looping (like for or while loops).
 
 LangGraph is highly extensible and provides a number of features that are not part of this tutorial, such as memory, persistance and streaming. To better understand the key concepts and philophies behind LangGraph, check out their Conceptual guides and High-level overview.
+
+# https://langchain-ai.github.io/langgraph/concepts/
